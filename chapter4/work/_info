@@ -1,0 +1,1775 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/projects/modelsim/fpga2017/day6sin
+vAccuM
+Z0 DXx6 sv_std 3 std 0 22 WmjPaeP=7F5?QFXzJ>D[Q2
+Z1 !s110 1497238720
+!i10b 1
+!s100 `76^21m5aHbkVN<>XfHBB3
+IUViQ]<Q?@9I76l0?f3CG?1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 !s105 accumulator_sv_unit
+S1
+Z4 dZ:/projects/modelsim/FPGA_Book_2017/chapter4
+Z5 w1497238705
+Z6 8Z:/projects/modelsim/FPGA_Book_2017/chapter4/accumulator.sv
+Z7 FZ:/projects/modelsim/FPGA_Book_2017/chapter4/accumulator.sv
+L0 29
+Z8 OP;L;10.4a;61
+r1
+!s85 0
+31
+Z9 !s108 1497238720.000000
+Z10 !s107 ../Common.sv|Z:/projects/modelsim/FPGA_Book_2017/chapter4/accumulator.sv|
+Z11 !s90 -reportprogress|300|-work|work|-sv|-stats=none|Z:/projects/modelsim/FPGA_Book_2017/chapter4/accumulator.sv|
+!s101 -O0
+!i113 1
+Z12 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+n@accu@m
+vAccumulator
+R0
+R1
+!i10b 1
+!s100 NghncM5g^J;kn9WL309oW0
+IMChP_ic42i2ikAk@D=jfQ2
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 18
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R12
+n@accumulator
+vBin2Bcd
+R0
+Z13 !s110 1497238723
+!i10b 1
+!s100 jQTYa1ag^Sm^9cg9NGR_[1
+IjJJ@2ZaYMRhF5O4Zc3>Qj2
+R2
+Z14 !s105 digital_led_sv_unit
+S1
+R4
+Z15 w1495045198
+Z16 8Z:/projects/modelsim/FPGA_Book_2017/chapter4/digital_led.sv
+Z17 FZ:/projects/modelsim/FPGA_Book_2017/chapter4/digital_led.sv
+L0 2
+R8
+r1
+!s85 0
+31
+Z18 !s108 1497238723.000000
+Z19 !s107 Z:/projects/modelsim/FPGA_Book_2017/chapter4/digital_led.sv|
+Z20 !s90 -reportprogress|300|-work|work|-sv|-stats=none|Z:/projects/modelsim/FPGA_Book_2017/chapter4/digital_led.sv|
+!s101 -O0
+!i113 1
+R12
+n@bin2@bcd
+vCntSecMinHr
+R0
+R1
+!i10b 1
+!s100 o<WOok]Qm0H32bgjkgVAR1
+IKLfN5JbhzGKFF?Ad::`RX1
+R2
+Z21 !s105 counter_sv_unit
+S1
+R4
+Z22 w1496381539
+Z23 8Z:/projects/modelsim/FPGA_Book_2017/chapter4/counter.sv
+Z24 FZ:/projects/modelsim/FPGA_Book_2017/chapter4/counter.sv
+L0 35
+R8
+r1
+!s85 0
+31
+R9
+Z25 !s107 ../common.sv|Z:/projects/modelsim/FPGA_Book_2017/chapter4/counter.sv|
+Z26 !s90 -reportprogress|300|-work|work|-sv|-stats=none|Z:/projects/modelsim/FPGA_Book_2017/chapter4/counter.sv|
+!s101 -O0
+!i113 1
+R12
+n@cnt@sec@min@hr
+XCombFunctions
+R0
+Z27 !s110 1497283552
+!i10b 1
+!s100 @iFKVNY^k9cU6mmP@<Dhb1
+I_A<<<OV;Bf@2EHI@l>Em53
+V_A<<<OV;Bf@2EHI@l>Em53
+S1
+R4
+Z28 w1497203815
+Z29 8../common.sv
+Z30 F../common.sv
+L0 41
+R8
+r1
+!s85 0
+31
+Z31 !s108 1497283552.000000
+Z32 !s107 ../common.sv|Z:/projects/modelsim/FPGA_Book_2017/chapter4/delay_chain_mem.sv|
+Z33 !s90 -reportprogress|300|-work|work|-sv|-stats=none|Z:/projects/modelsim/FPGA_Book_2017/chapter4/delay_chain_mem.sv|
+!s101 -O0
+!i113 1
+R12
+n@comb@functions
+vCounter
+R0
+R1
+!i10b 1
+!s100 1Sb7i:gQXgl?1=F_ogMf_0
+IeRTDkiK;Jn9JN:bH9H:2J1
+R2
+R21
+S1
+R4
+R22
+R23
+R24
+Z34 L0 48
+R8
+r1
+!s85 0
+31
+R9
+R25
+R26
+!s101 -O0
+!i113 1
+R12
+n@counter
+vCounterMax
+R0
+R1
+!i10b 1
+!s100 Kf3P]kPKnA_Em14RhoiHj1
+I^RWR@PZUhI24Imhgc1e3[1
+R2
+R21
+S1
+R4
+R22
+R23
+R24
+L0 65
+R8
+r1
+!s85 0
+31
+R9
+R25
+R26
+!s101 -O0
+!i113 1
+R12
+n@counter@max
+vCrossClkCnt
+R0
+Z35 !s110 1497238721
+!i10b 1
+!s100 ;Hoz36>DDR5i6OV4aaLQ]0
+ImaQ_8mi;S_T_XK4AKiRVB2
+R2
+Z36 !s105 cross_cd_cnt_state_sv_unit
+S1
+R4
+Z37 w1497238697
+Z38 8Z:/projects/modelsim/FPGA_Book_2017/chapter4/cross_cd_cnt_state.sv
+Z39 FZ:/projects/modelsim/FPGA_Book_2017/chapter4/cross_cd_cnt_state.sv
+L0 15
+R8
+r1
+!s85 0
+31
+Z40 !s108 1497238721.000000
+Z41 !s107 ../Common.sv|Z:/projects/modelsim/FPGA_Book_2017/chapter4/cross_cd_cnt_state.sv|
+Z42 !s90 -reportprogress|300|-work|work|-sv|-stats=none|Z:/projects/modelsim/FPGA_Book_2017/chapter4/cross_cd_cnt_state.sv|
+!s101 -O0
+!i113 1
+R12
+n@cross@clk@cnt
+vCrossClkEvent
+R0
+R35
+!i10b 1
+!s100 fHfV[5f>0_m2]il:I]cLM2
+If]gigoHd@^N@e^2fW8E6X1
+R2
+Z43 !s105 cc_event_handshake_sv_unit
+S1
+R4
+Z44 w1497238700
+Z45 8Z:/projects/modelsim/FPGA_Book_2017/chapter4/cc_event_handshake.sv
+Z46 FZ:/projects/modelsim/FPGA_Book_2017/chapter4/cc_event_handshake.sv
+L0 20
+R8
+r1
+!s85 0
+31
+R40
+Z47 !s107 ../Common.sv|Z:/projects/modelsim/FPGA_Book_2017/chapter4/cc_event_handshake.sv|
+Z48 !s90 -reportprogress|300|-work|work|-sv|-stats=none|Z:/projects/modelsim/FPGA_Book_2017/chapter4/cc_event_handshake.sv|
+!s101 -O0
+!i113 1
+R12
+n@cross@clk@event
+vDcRam
+R0
+Z49 !s110 1497238722
+!i10b 1
+!s100 KkI2hTieJh;cUHOQOFFWi0
+INecl7ad0Cd@Xf5DH`H<QP2
+R2
+Z50 !s105 scfifo_sv_unit
+S1
+R4
+Z51 w1496381360
+Z52 8../chapter4/memory.sv
+Z53 F../chapter4/memory.sv
+L0 132
+R8
+r1
+!s85 0
+31
+Z54 !s108 1497238722.000000
+Z55 !s107 ../chapter4/memory.sv|../common.sv|Z:/projects/modelsim/FPGA_Book_2017/chapter4/scfifo.sv|
+Z56 !s90 -reportprogress|300|-work|work|-sv|-stats=none|Z:/projects/modelsim/FPGA_Book_2017/chapter4/scfifo.sv|
+!s101 -O0
+!i113 1
+R12
+n@dc@ram
+vDecoder
+R0
+Z57 !s110 1497238719
+!i10b 1
+!s100 OYb6JZVd[zH<NOzW^9>=D2
+I[R0>BGVz`lk:W>[V;H[:O3
+R2
+Z58 !s105 decoder_sv_unit
+S1
+R4
+Z59 w1497238631
+Z60 8Z:/projects/modelsim/FPGA_Book_2017/chapter4/decoder.sv
+Z61 FZ:/projects/modelsim/FPGA_Book_2017/chapter4/decoder.sv
+L0 11
+R8
+r1
+!s85 0
+31
+Z62 !s108 1497238719.000000
+Z63 !s107 ../Common.sv|Z:/projects/modelsim/FPGA_Book_2017/chapter4/decoder.sv|
+Z64 !s90 -reportprogress|300|-work|work|-sv|-stats=none|Z:/projects/modelsim/FPGA_Book_2017/chapter4/decoder.sv|
+!s101 -O0
+!i113 1
+R12
+n@decoder
+vDelayChain
+R0
+Z65 !s110 1497282880
+!i10b 1
+!s100 <;T4m6`<=I3[^ad]MlA4k1
+INz]DoIPSLAR`:aVIXC>`O1
+R2
+Z66 !s105 delay_chain_sv_unit
+S1
+R4
+Z67 w1497282877
+Z68 8Z:\projects\modelsim\FPGA_Book_2017\chapter4\delay_chain.sv
+Z69 FZ:\projects\modelsim\FPGA_Book_2017\chapter4\delay_chain.sv
+L0 19
+R8
+r1
+!s85 0
+31
+Z70 !s108 1497282880.000000
+Z71 !s107 ../Common.sv|Z:\projects\modelsim\FPGA_Book_2017\chapter4\delay_chain.sv|
+Z72 !s90 -reportprogress|300|-work|work|-sv|-stats=none|Z:\projects\modelsim\FPGA_Book_2017\chapter4\delay_chain.sv|
+!s101 -O0
+!i113 1
+R12
+n@delay@chain
+vDelayChainMem
+R0
+Z73 !s110 1497283553
+!i10b 1
+!s100 i^Re@KUoi67jFfTQe_Z491
+IR=E?zNYkc3a5=hjXGjQSY0
+R2
+Z74 !s105 delay_chain_mem_sv_unit
+S1
+R4
+Z75 w1497283550
+Z76 8Z:/projects/modelsim/FPGA_Book_2017/chapter4/delay_chain_mem.sv
+Z77 FZ:/projects/modelsim/FPGA_Book_2017/chapter4/delay_chain_mem.sv
+L0 8
+R8
+r1
+!s85 0
+31
+R31
+R32
+R33
+!s101 -O0
+!i113 1
+R12
+n@delay@chain@mem
+vDigitalLedSeg
+R0
+R13
+!i10b 1
+!s100 z0KUGOc]F9hNNfVhPBQFa2
+IkCOZ?1iY5E:Ghgz[6Wo<O3
+R2
+R14
+S1
+R4
+R15
+R16
+R17
+L0 30
+R8
+r1
+!s85 0
+31
+R18
+R19
+R20
+!s101 -O0
+!i113 1
+R12
+n@digital@led@seg
+vDpRam
+R0
+R49
+!i10b 1
+!s100 <nGk9@PT;93F5nVB`f@k03
+IBDM]BSYz?i=E`naZ;3lHR2
+R2
+R50
+S1
+R4
+R51
+R52
+R53
+L0 82
+R8
+r1
+!s85 0
+31
+R54
+R55
+R56
+!s101 -O0
+!i113 1
+R12
+n@dp@ram
+vEdge2En
+R0
+R35
+!i10b 1
+!s100 0HGWz>jj4QZz<20hIS4Sb1
+IJ0fhRWN8F5MhXCfI0H@5A1
+R2
+Z78 !s105 edge2en_sv_unit
+S1
+R4
+Z79 w1496381859
+Z80 8Z:/projects/modelsim/FPGA_Book_2017/chapter4/edge2en.sv
+Z81 FZ:/projects/modelsim/FPGA_Book_2017/chapter4/edge2en.sv
+R34
+R8
+r1
+!s85 0
+31
+R40
+Z82 !s107 ../common.sv|Z:/projects/modelsim/FPGA_Book_2017/chapter4/edge2en.sv|
+Z83 !s90 -reportprogress|300|-work|work|-sv|-stats=none|Z:/projects/modelsim/FPGA_Book_2017/chapter4/edge2en.sv|
+!s101 -O0
+!i113 1
+R12
+n@edge2@en
+vEncoder
+R0
+R57
+!i10b 1
+!s100 M5HUA=coRiK@8;<DMQ9KK2
+I@VV1TBmPD=WKoF[]Ig2d`1
+R2
+Z84 !s105 encoder_sv_unit
+S1
+R4
+Z85 w1497238616
+Z86 8Z:/projects/modelsim/FPGA_Book_2017/chapter4/encoder.sv
+Z87 FZ:/projects/modelsim/FPGA_Book_2017/chapter4/encoder.sv
+L0 13
+R8
+r1
+!s85 0
+31
+R62
+Z88 !s107 ../Common.sv|Z:/projects/modelsim/FPGA_Book_2017/chapter4/encoder.sv|
+Z89 !s90 -reportprogress|300|-work|work|-sv|-stats=none|Z:/projects/modelsim/FPGA_Book_2017/chapter4/encoder.sv|
+!s101 -O0
+!i113 1
+R12
+n@encoder
+vFalling2En
+R0
+R35
+!i10b 1
+!s100 WjzFzfQ1QFez93?zHz_zM1
+ID4255AXiC[m9E:`ffzZLz1
+R2
+R78
+S1
+R4
+R79
+R80
+R81
+L0 36
+R8
+r1
+!s85 0
+31
+R40
+R82
+R83
+!s101 -O0
+!i113 1
+R12
+n@falling2@en
+XFixedpoint
+R0
+R27
+!i10b 1
+!s100 <N=Nf;beQM?Q=:GoI71nC0
+IjeNM[Adz?WDCGjkCS2<U42
+VjeNM[Adz?WDCGjkCS2<U42
+S1
+R4
+R28
+R29
+R30
+L0 53
+R8
+r1
+!s85 0
+31
+R31
+R32
+R33
+!s101 -O0
+!i113 1
+R12
+n@fixedpoint
+vKeyProcess
+R0
+R13
+!i10b 1
+!s100 =dUSbdMT`Z^<<<C1I4A9B3
+I:2U36kdfUhIBAAbznfL853
+R2
+Z90 !s105 key_process_sv_unit
+S1
+R4
+Z91 w1497238669
+Z92 8Z:/projects/modelsim/FPGA_Book_2017/chapter4/key_process.sv
+Z93 FZ:/projects/modelsim/FPGA_Book_2017/chapter4/key_process.sv
+Z94 L0 22
+R8
+r1
+!s85 0
+31
+R54
+Z95 !s107 ../Common.sv|Z:/projects/modelsim/FPGA_Book_2017/chapter4/key_process.sv|
+Z96 !s90 -reportprogress|300|-work|work|-sv|-stats=none|Z:/projects/modelsim/FPGA_Book_2017/chapter4/key_process.sv|
+!s101 -O0
+!i113 1
+R12
+n@key@process
+vmem
+R0
+!s110 1494510592
+!i10b 1
+!s100 m1N36P=4^53n:cQSN8]P10
+IfUobcM6;5RE<2]6ZoM5]41
+R2
+Z97 !s105 memory_sv_unit
+S1
+R4
+w1494510586
+Z98 8Z:/projects/modelsim/FPGA_Book_2017/chapter4/memory.sv
+Z99 FZ:/projects/modelsim/FPGA_Book_2017/chapter4/memory.sv
+Z100 L0 14
+R8
+r1
+!s85 0
+31
+!s108 1494510592.000000
+Z101 !s107 ../../book2015.sv|Z:/projects/modelsim/FPGA_Book_2017/chapter4/memory.sv|
+Z102 !s90 -reportprogress|300|-work|work|-sv|-stats=none|Z:/projects/modelsim/FPGA_Book_2017/chapter4/memory.sv|
+!s101 -O0
+!i113 1
+R12
+vMemoryDQ
+R0
+!s110 1494847757
+!i10b 1
+!s100 l:[;4<_5W`9lZ:1:M;fel3
+IVO0PfT>gFPo`GUZ]3Kf;l0
+R2
+R97
+S1
+R4
+w1494847756
+R98
+R99
+L0 152
+R8
+r1
+!s85 0
+31
+!s108 1494847757.000000
+R101
+R102
+!s101 -O0
+!i113 1
+R12
+n@memory@d@q
+vMux
+R0
+R57
+!i10b 1
+!s100 26e33WXgzU0T^WC`=NH<h0
+Ibm3k:I@M=Ec8S20]>1JQT0
+R2
+Z103 !s105 mux_sv_unit
+S1
+R4
+Z104 w1497238666
+Z105 8Z:/projects/modelsim/FPGA_Book_2017/chapter4/mux.sv
+Z106 FZ:/projects/modelsim/FPGA_Book_2017/chapter4/mux.sv
+R100
+R8
+r1
+!s85 0
+31
+R62
+Z107 !s107 ../Common.sv|Z:/projects/modelsim/FPGA_Book_2017/chapter4/mux.sv|
+Z108 !s90 -reportprogress|300|-work|work|-sv|-stats=none|Z:/projects/modelsim/FPGA_Book_2017/chapter4/mux.sv|
+!s101 -O0
+!i113 1
+R12
+n@mux
+vOscopeTrigSmp
+R0
+Z109 !s110 1497238724
+!i10b 1
+!s100 :g0ak6E^le6mN3Jh96CN71
+I:2eDJn]6m^932jNnkE9KD2
+R2
+Z110 !s105 digital_osc_trigger_sv_unit
+S1
+R4
+Z111 w1497238673
+Z112 8Z:/projects/modelsim/FPGA_Book_2017/chapter4/digital_osc_trigger.sv
+Z113 FZ:/projects/modelsim/FPGA_Book_2017/chapter4/digital_osc_trigger.sv
+L0 57
+R8
+r1
+!s85 0
+31
+Z114 !s108 1497238724.000000
+Z115 !s107 ../Common.sv|Z:/projects/modelsim/FPGA_Book_2017/chapter4/digital_osc_trigger.sv|
+Z116 !s90 -reportprogress|300|-work|work|-sv|-stats=none|Z:/projects/modelsim/FPGA_Book_2017/chapter4/digital_osc_trigger.sv|
+!s101 -O0
+!i113 1
+R12
+n@oscope@trig@smp
+vOscopeTrigSmpFsm
+R0
+R109
+!i10b 1
+!s100 NlX9W4AeP9kI;MEIdU<3B0
+IJ`;C7QQVH4n3Yl5lZ;D??0
+R2
+R110
+S1
+R4
+R111
+R112
+R113
+L0 84
+R8
+r1
+!s85 0
+31
+R114
+R115
+R116
+!s101 -O0
+!i113 1
+R12
+n@oscope@trig@smp@fsm
+vOscopeTrigSmpTest
+R0
+DXx4 work 9 SimSrcGen 0 22 Y6FhGli;@Aa1>jzT8hkQL0
+!s110 1495551027
+!i10b 1
+!s100 cchWf`B0aIIH5:akd0Bk`0
+Imhh6]8_T32IUOBN0X^Y670
+R2
+R110
+S1
+R4
+w1495551012
+R112
+R113
+L0 5
+R8
+r1
+!s85 0
+31
+!s108 1495551027.000000
+!s107 ../../book2015.sv|Z:/projects/modelsim/FPGA_Book_2017/chapter4/digital_osc_trigger.sv|
+R116
+!s101 -O0
+!i113 1
+R12
+n@oscope@trig@smp@test
+vPulseWiden
+R0
+R35
+!i10b 1
+!s100 nEb<_?J;ARgTQkkjj=ST^1
+IPGd:8jf7L=_<dhbXZX0G;3
+R2
+Z117 !s105 pulse_widen_sv_unit
+S1
+R4
+Z118 w1497238663
+Z119 8Z:/projects/modelsim/FPGA_Book_2017/chapter4/pulse_widen.sv
+Z120 FZ:/projects/modelsim/FPGA_Book_2017/chapter4/pulse_widen.sv
+R94
+R8
+r1
+!s85 0
+31
+R40
+Z121 !s107 ../Common.sv|Z:/projects/modelsim/FPGA_Book_2017/chapter4/pulse_widen.sv|
+Z122 !s90 -reportprogress|300|-work|work|-sv|-stats=none|Z:/projects/modelsim/FPGA_Book_2017/chapter4/pulse_widen.sv|
+!s101 -O0
+!i113 1
+R12
+n@pulse@widen
+vPwm
+R0
+R13
+!i10b 1
+!s100 ?k1_lHXI5oLgS:oS5R7kZ2
+IZ<THNDT0:J^DYZzgoQL1^1
+R2
+Z123 !s105 pwm_sv_unit
+S1
+R4
+Z124 w1497238656
+Z125 8Z:/projects/modelsim/FPGA_Book_2017/chapter4/pwm.sv
+Z126 FZ:/projects/modelsim/FPGA_Book_2017/chapter4/pwm.sv
+L0 28
+R8
+r1
+!s85 0
+31
+R18
+Z127 !s107 ../Common.sv|Z:/projects/modelsim/FPGA_Book_2017/chapter4/pwm.sv|
+Z128 !s90 -reportprogress|300|-work|work|-sv|-stats=none|Z:/projects/modelsim/FPGA_Book_2017/chapter4/pwm.sv|
+!s101 -O0
+!i113 1
+R12
+n@pwm
+vPwmDiffFixedLow
+R0
+R13
+!i10b 1
+!s100 ;9zEK]`LlH6V1Gj2FPOgU0
+IWHkfoazJ6kP5FmIScH>4B0
+R2
+R123
+S1
+R4
+R124
+R125
+R126
+L0 74
+R8
+r1
+!s85 0
+31
+R18
+R127
+R128
+!s101 -O0
+!i113 1
+R12
+n@pwm@diff@fixed@low
+vPwmDiffTime
+R0
+R13
+!i10b 1
+!s100 Pj1dgBFKC;QAfmTNokGJ_2
+IP5DCZlFX[UA=X9k8VGh<Z2
+R2
+R123
+S1
+R4
+R124
+R125
+R126
+L0 58
+R8
+r1
+!s85 0
+31
+R18
+R127
+R128
+!s101 -O0
+!i113 1
+R12
+n@pwm@diff@time
+vPwmSigned
+R0
+R13
+!i10b 1
+!s100 g7zP1N49I]]zTD_hg<m_f1
+I?n>;hkQoG86gTdh9Zk3100
+R2
+R123
+S1
+R4
+R124
+R125
+R126
+Z129 L0 43
+R8
+r1
+!s85 0
+31
+R18
+R127
+R128
+!s101 -O0
+!i113 1
+R12
+n@pwm@signed
+vQeiIf
+R0
+!s110 1495013587
+!i10b 1
+!s100 oEC<dc3F:119I7DR2G7S@3
+I?hPjVcU4`6UDz4P<8Yc2M1
+R2
+Z130 !s105 quadrature_inc_enc_sv_unit
+S1
+R4
+w1495013581
+Z131 8Z:/projects/modelsim/FPGA_Book_2017/chapter4/quadrature_inc_enc.sv
+Z132 FZ:/projects/modelsim/FPGA_Book_2017/chapter4/quadrature_inc_enc.sv
+L0 2
+R8
+r1
+!s85 0
+31
+!s108 1495013587.000000
+!s107 Z:/projects/modelsim/FPGA_Book_2017/chapter4/quadrature_inc_enc.sv|
+Z133 !s90 -reportprogress|300|-work|work|-sv|-stats=none|Z:/projects/modelsim/FPGA_Book_2017/chapter4/quadrature_inc_enc.sv|
+!s101 -O0
+!i113 1
+R12
+n@qei@if
+vQuadEncIf
+R0
+R13
+!i10b 1
+!s100 3@QHf<j]kdGoLRJ@<Sgde0
+Ii6QBY8]UR3Q3zfo<YHXSc0
+R2
+R130
+S1
+R4
+Z134 w1497238647
+R131
+R132
+L0 33
+R8
+r1
+!s85 0
+31
+R18
+Z135 !s107 ../Common.sv|Z:/projects/modelsim/FPGA_Book_2017/chapter4/quadrature_inc_enc.sv|
+R133
+!s101 -O0
+!i113 1
+R12
+n@quad@enc@if
+vRamDQ
+R0
+!s110 1494593112
+!i10b 1
+!s100 2ZDM_6Ro;Db?SdUf9kRg90
+IoU_IgnD@UY4I6el59^CN53
+R2
+R97
+S1
+R4
+w1494593099
+R98
+R99
+L0 23
+R8
+r1
+!s85 0
+31
+!s108 1494593111.000000
+R101
+R102
+!s101 -O0
+!i113 1
+R12
+n@ram@d@q
+vRising2En
+R0
+R35
+!i10b 1
+!s100 33@N8aK]jTS30>Rm3ZVTS2
+I:S5n0i@WWNEea^aWMgGkl2
+R2
+R78
+S1
+R4
+R79
+R80
+R81
+Z136 L0 24
+R8
+r1
+!s85 0
+31
+R40
+R82
+R83
+!s101 -O0
+!i113 1
+R12
+n@rising2@en
+vRisingDelay
+R0
+R13
+!i10b 1
+!s100 _jQL=^zZ<L?h<[_CTBPMS3
+I8FDQk]@Ijf^Tf<PTka5jF2
+R2
+R123
+S1
+R4
+R124
+R125
+R126
+L0 98
+R8
+r1
+!s85 0
+31
+R18
+R127
+R128
+!s101 -O0
+!i113 1
+R12
+n@rising@delay
+vScFifo1
+R0
+R49
+!i10b 1
+!s100 f4H;n<Q`465NJ:ObSdo071
+IHgV4Uh]Q8L>1T^34P>52b0
+R2
+R50
+S1
+R4
+Z137 w1496384558
+Z138 8Z:/projects/modelsim/FPGA_Book_2017/chapter4/scfifo.sv
+Z139 FZ:/projects/modelsim/FPGA_Book_2017/chapter4/scfifo.sv
+R34
+R8
+r1
+!s85 0
+31
+R54
+R55
+R56
+!s101 -O0
+!i113 1
+R12
+n@sc@fifo1
+vScFifo2
+R0
+R49
+!i10b 1
+!s100 j_`EWLNTCAUI:`HgzMDeR0
+IBYUo]JEDXjYQPZ43?KY>h3
+R2
+R50
+S1
+R4
+R137
+R138
+R139
+L0 77
+R8
+r1
+!s85 0
+31
+R54
+R55
+R56
+!s101 -O0
+!i113 1
+R12
+n@sc@fifo2
+vScFifoSa
+R0
+!s110 1494866539
+!i10b 1
+!s100 iPPkhlb1HlTj<oHY:>lOB3
+INV_2fV0jKFVG_LU7<[3SO2
+R2
+R50
+S1
+R4
+w1494866537
+R138
+R139
+R129
+R8
+r1
+!s85 0
+31
+!s108 1494866539.000000
+Z140 !s107 ../../book2015.sv|Z:/projects/modelsim/FPGA_Book_2017/chapter4/scfifo.sv|
+R56
+!s101 -O0
+!i113 1
+R12
+n@sc@fifo@sa
+vSdcRam
+R0
+R49
+!i10b 1
+!s100 Hnk0]Eb1ECHT7<ZAmmFH[1
+IimfXmNo^=RdGBFVk`]@8^2
+R2
+R50
+S1
+R4
+R51
+R52
+R53
+L0 112
+R8
+r1
+!s85 0
+31
+R54
+R55
+R56
+!s101 -O0
+!i113 1
+R12
+n@sdc@ram
+vSdpRamRf
+R0
+R49
+!i10b 1
+!s100 2QToM0e]7nYK9h_^UP^FZ3
+Il`LgX0YmGXWB7`6U:VX^P1
+R2
+R50
+S1
+R4
+R51
+R52
+R53
+L0 61
+R8
+r1
+!s85 0
+31
+R54
+R55
+R56
+!s101 -O0
+!i113 1
+R12
+n@sdp@ram@rf
+vShiftReg
+R0
+R1
+!i10b 1
+!s100 78UV@4?U3SIVW>RNhfIPm1
+I^MCHW@kMa=FY3:3>cLkfi2
+R2
+Z141 !s105 shiftreg_sv_unit
+S1
+R4
+Z142 w1497238641
+Z143 8Z:/projects/modelsim/FPGA_Book_2017/chapter4/shiftreg.sv
+Z144 FZ:/projects/modelsim/FPGA_Book_2017/chapter4/shiftreg.sv
+L0 7
+R8
+r1
+!s85 0
+31
+R9
+Z145 !s107 ../Common.sv|Z:/projects/modelsim/FPGA_Book_2017/chapter4/shiftreg.sv|
+Z146 !s90 -reportprogress|300|-work|work|-sv|-stats=none|Z:/projects/modelsim/FPGA_Book_2017/chapter4/shiftreg.sv|
+!s101 -O0
+!i113 1
+R12
+n@shift@reg
+XSimSrcGen
+R0
+R27
+!i10b 1
+!s100 K[;1hllULaZEZEOmG0d641
+If=A9>lH38VX<WUC`O1>mi0
+Vf=A9>lH38VX<WUC`O1>mi0
+S1
+R4
+R28
+R29
+R30
+L0 4
+R8
+r1
+!s85 0
+31
+R31
+R32
+R33
+!s101 -O0
+!i113 1
+R12
+n@sim@src@gen
+XsimSrcGen
+R0
+!s110 1494320509
+!i10b 1
+!s100 O3lgGLPS8D3RUGaDgW9BA2
+I[QkLk[_0XaB8G6U@;m[813
+V[QkLk[_0XaB8G6U@;m[813
+S1
+R4
+w1494313457
+8../../book2015.sv
+F../../book2015.sv
+L0 1
+R8
+r1
+!s85 0
+31
+!s108 1494320509.000000
+!s107 ../../book2015.sv|Z:/projects/modelsim/FPGA_Book_2017/chapter4/delay_chain.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|Z:/projects/modelsim/FPGA_Book_2017/chapter4/delay_chain.sv|
+!s101 -O0
+!i113 1
+R12
+nsim@src@gen
+vSpRamRf
+R0
+R49
+!i10b 1
+!s100 8gFSUFoUm@cQX4Q;S5RJF2
+Io^;@lDgOdK@HU_GATkaY13
+R2
+R50
+S1
+R4
+R51
+R52
+R53
+L0 26
+R8
+r1
+!s85 0
+31
+R54
+R55
+R56
+!s101 -O0
+!i113 1
+R12
+n@sp@ram@rf
+vSpRamRf_Sin
+R0
+!s110 1494849180
+!i10b 1
+!s100 e;nVMjN[@4[N^fUWUb=1e2
+I:GAZSU?dADFl<9eYn<_@z1
+R2
+R97
+S1
+R4
+w1494849178
+R98
+R99
+L0 154
+R8
+r1
+!s85 0
+31
+!s108 1494849180.000000
+R101
+R102
+!s101 -O0
+!i113 1
+R12
+n@sp@ram@rf_@sin
+vSpRamRfSine
+R0
+R49
+!i10b 1
+!s100 UkzRNAh1@;Wz0@=0`?:Rn1
+I_3jbNc]cN1FaH1]Y]BkS@2
+R2
+R50
+S1
+R4
+R51
+R52
+R53
+L0 157
+R8
+r1
+!s85 0
+31
+R54
+R55
+R56
+!s101 -O0
+!i113 1
+R12
+n@sp@ram@rf@sine
+vSpRamWf
+R0
+R49
+!i10b 1
+!s100 cTzmP38h4AUSgkCk;<D]30
+Ia7i[oJaI[9?Y51I_m=]Lh2
+R2
+R50
+S1
+R4
+R51
+R52
+R53
+L0 42
+R8
+r1
+!s85 0
+31
+R54
+R55
+R56
+!s101 -O0
+!i113 1
+R12
+n@sp@ram@wf
+vStopWatchFsm
+R0
+R13
+!i10b 1
+!s100 <c:k<X;hilW`XYRiJlM@j0
+I`@SmRC4>:P=h1ENb^18Z^2
+R2
+Z147 !s105 stop_watch_fsm_sv_unit
+S1
+R4
+Z148 w1497238719
+Z149 8Z:/projects/modelsim/FPGA_Book_2017/chapter4/stop_watch_fsm.sv
+Z150 FZ:/projects/modelsim/FPGA_Book_2017/chapter4/stop_watch_fsm.sv
+L0 47
+R8
+r1
+!s85 0
+31
+R18
+Z151 !s107 ../Common.sv|Z:/projects/modelsim/FPGA_Book_2017/chapter4/stop_watch_fsm.sv|
+Z152 !s90 -reportprogress|300|-work|work|-sv|-stats=none|Z:/projects/modelsim/FPGA_Book_2017/chapter4/stop_watch_fsm.sv|
+!s101 -O0
+!i113 1
+R12
+n@stop@watch@fsm
+vTestAccu
+R0
+Z153 DXx4 work 9 SimSrcGen 0 22 =a8YOLTKXQU`TR@Y;QfP90
+R1
+!i10b 1
+!s100 30B3j>AP@2mPj@_FBWj5z1
+IYbY4JM35fODnBRaU1mSFn2
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 4
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R12
+n@test@accu
+vTestCCCnt
+R0
+Z154 DXx4 work 9 SimSrcGen 0 22 6kmnWMViFPSUmMV^`28hg0
+R35
+!i10b 1
+!s100 MLZ:0ogk<^knk52I>me611
+IhRLbb=_CWaDcc7o6]Tn=M0
+R2
+R36
+S1
+R4
+R37
+R38
+R39
+L0 3
+R8
+r1
+!s85 0
+31
+R40
+R41
+R42
+!s101 -O0
+!i113 1
+R12
+n@test@c@c@cnt
+vTestCCEvent
+R0
+R154
+R35
+!i10b 1
+!s100 ?C5f0>bbz_[O[e_h;iO`61
+I<Pee[X[anR5jXKF;G52kF2
+R2
+R43
+S1
+R4
+R44
+R45
+R46
+L0 4
+R8
+r1
+!s85 0
+31
+R40
+R47
+R48
+!s101 -O0
+!i113 1
+R12
+n@test@c@c@event
+vTestCntSecMinHr
+R0
+Z155 DXx4 work 9 SimSrcGen 0 22 ^84EE7?ONVghKM9G2Si<E3
+R1
+!i10b 1
+!s100 LEVkE?i05OSMLDo<ggb9D3
+IV@:4aiR=EdN3cUk6[3;QS2
+R2
+R21
+S1
+R4
+R22
+R23
+R24
+R136
+R8
+r1
+!s85 0
+31
+R9
+R25
+R26
+!s101 -O0
+!i113 1
+R12
+n@test@cnt@sec@min@hr
+vTestCounter
+R0
+R155
+R1
+!i10b 1
+!s100 5:1BNceVUO94WPHCS?1iR0
+IhJ3I97Dm_EhIe`ZH;MjMW2
+R2
+R21
+S1
+R4
+R22
+R23
+R24
+L0 7
+R8
+r1
+!s85 0
+31
+R9
+R25
+R26
+!s101 -O0
+!i113 1
+R12
+n@test@counter
+vTestDecoder
+R0
+Z156 DXx4 work 13 CombFunctions 0 22 T9TR9g=7]m1OL>aeIiz;e2
+R57
+!i10b 1
+!s100 fO^g0]n3DD3SMBhY`kP3I0
+IBLHAD15K81_ILDVAOXY:D3
+R2
+R58
+S1
+R4
+R59
+R60
+R61
+L0 3
+R8
+r1
+!s85 0
+31
+R62
+R63
+R64
+!s101 -O0
+!i113 1
+R12
+n@test@decoder
+vTestDelayChain
+R0
+R153
+R65
+!i10b 1
+!s100 ]82aUVTi6a4;9GPOoEP@N3
+IidmDm4m82RT2C>78eZ<fZ1
+R2
+R66
+S1
+R4
+R67
+R68
+R69
+L0 8
+R8
+r1
+!s85 0
+31
+R70
+R71
+R72
+!s101 -O0
+!i113 1
+R12
+n@test@delay@chain
+vTestDelayChainMem
+R0
+DXx4 work 9 SimSrcGen 0 22 f=A9>lH38VX<WUC`O1>mi0
+R73
+!i10b 1
+!s100 ZXZc2:<Mc@CnHnRFK__;N3
+Iof7Fa;mP^517I3YK<Yemh2
+R2
+R74
+S1
+R4
+R75
+R76
+R77
+L0 40
+R8
+r1
+!s85 0
+31
+R31
+R32
+R33
+!s101 -O0
+!i113 1
+R12
+n@test@delay@chain@mem
+vTestEdge2En
+R0
+R155
+R35
+!i10b 1
+!s100 I=YfLcXSYADQS]m[Z8lPd3
+I9VL:cc<^>kVS5zIzINeJz2
+R2
+R78
+S1
+R4
+R79
+R80
+R81
+L0 8
+R8
+r1
+!s85 0
+31
+R40
+R82
+R83
+!s101 -O0
+!i113 1
+R12
+n@test@edge2@en
+vTestEncoder
+R0
+R156
+R57
+!i10b 1
+!s100 1zJ_=0z_k55G1JG1ZhZi`3
+Im76PQ2MOEn6eFQjS5OAH[1
+R2
+R84
+S1
+R4
+R85
+R86
+R87
+L0 3
+R8
+r1
+!s85 0
+31
+R62
+R88
+R89
+!s101 -O0
+!i113 1
+R12
+n@test@encoder
+vTestFifo
+R0
+DXx4 work 9 SimSrcGen 0 22 ^X3Hl?EBh5?7KEY6=k^UN2
+!s110 1494866031
+!i10b 1
+!s100 _m>;FfE_^XX5k7WV;fzi>2
+IzDT>8Pz^D`6kQe3>:mbRg0
+R2
+R50
+S1
+R4
+w1494866029
+R138
+R139
+L0 5
+R8
+r1
+!s85 0
+31
+!s108 1494866030.000000
+R140
+R56
+!s101 -O0
+!i113 1
+R12
+n@test@fifo
+vTestKeyProcess
+R0
+Z157 DXx4 work 9 SimSrcGen 0 22 THcLjHTG_jfXAmleVo5Pm0
+R13
+!i10b 1
+!s100 nlYeGzJF0E^nB0DGD2dCC0
+I_bhJfe<Z]dhk^N=?Gc0M53
+R2
+R90
+S1
+R4
+R91
+R92
+R93
+L0 4
+R8
+r1
+!s85 0
+31
+R54
+R95
+R96
+!s101 -O0
+!i113 1
+R12
+n@test@key@process
+vTestMem
+R0
+R155
+R49
+!i10b 1
+!s100 0fGYXXJobAk;gVUchIAGa3
+I`@_no?]^O7kI[RDL0WPiH3
+R2
+R50
+S1
+R4
+R51
+R52
+R53
+L0 8
+R8
+r1
+!s85 0
+31
+R54
+R55
+R56
+!s101 -O0
+!i113 1
+R12
+n@test@mem
+vTestMux
+R0
+R57
+!i10b 1
+!s100 Q`9YcYfWCOBWXjL^fb?i02
+In[;U2CHz9OGCMA`gAY3_i1
+R2
+R103
+S1
+R4
+R104
+R105
+R106
+L0 3
+R8
+r1
+!s85 0
+31
+R62
+R107
+R108
+!s101 -O0
+!i113 1
+R12
+n@test@mux
+vTestOscopeTrigSmp
+R0
+DXx4 work 9 SimSrcGen 0 22 LZ]N5o9N5X?MRb]N1O6ci0
+R109
+!i10b 1
+!s100 N<HLl7lzk8=b5^=;FNfj:0
+I]<o<iT[XY1GP11`B`F[X=3
+R2
+R110
+S1
+R4
+R111
+R112
+R113
+L0 5
+R8
+r1
+!s85 0
+31
+R114
+R115
+R116
+!s101 -O0
+!i113 1
+R12
+n@test@oscope@trig@smp
+vTestPulseWiden
+R0
+R153
+R35
+!i10b 1
+!s100 EmdBn[1BJhIYPA<e:`zeo0
+I4kC`iRMWM_m=X:<@aTX193
+R2
+R117
+S1
+R4
+R118
+R119
+R120
+L0 4
+R8
+r1
+!s85 0
+31
+R40
+R121
+R122
+!s101 -O0
+!i113 1
+R12
+n@test@pulse@widen
+vTestPwm
+R0
+R153
+R13
+!i10b 1
+!s100 [i9H_EB54=Tjj=@8Qni[41
+II5[7So_Jo;X29<W`j1:5A1
+R2
+R123
+S1
+R4
+R124
+R125
+R126
+L0 4
+R8
+r1
+!s85 0
+31
+R18
+R127
+R128
+!s101 -O0
+!i113 1
+R12
+n@test@pwm
+vTestQuadEncIf
+R0
+R153
+R13
+!i10b 1
+!s100 fSE3=RT=^WLz4a=JRSRI@3
+IUAdR7Z>iQKXN?K7o:b@7P3
+R2
+R130
+S1
+R4
+R134
+R131
+R132
+L0 4
+R8
+r1
+!s85 0
+31
+R18
+R135
+R133
+!s101 -O0
+!i113 1
+R12
+n@test@quad@enc@if
+vTestScFifo
+R0
+R155
+R49
+!i10b 1
+!s100 UeRelai_ZeDIJOCW2F[g@1
+I7T95nMg[f2DZUVzN`=3JI1
+R2
+R50
+S1
+R4
+R137
+R138
+R139
+L0 10
+R8
+r1
+!s85 0
+31
+R54
+R55
+R56
+!s101 -O0
+!i113 1
+R12
+n@test@sc@fifo
+vTestShiftReg
+R0
+R1
+!i10b 1
+!s100 1@8eHmc?`g;>Hoi^U2dB]3
+I3KbHCjaQ=`]ViGERTUh0D0
+R2
+R141
+S1
+R4
+R142
+R143
+R144
+L0 3
+R8
+r1
+!s85 0
+31
+R9
+R145
+R146
+!s101 -O0
+!i113 1
+R12
+n@test@shift@reg
+vTestStopWatchFsm
+R0
+R157
+R13
+!i10b 1
+!s100 mRIE_Qzh[23:MCVzo5hQJ2
+ISMXfY1aSebCW9oHlBeBPI0
+R2
+R147
+S1
+R4
+R148
+R149
+R150
+L0 4
+R8
+r1
+!s85 0
+31
+R18
+R151
+R152
+!s101 -O0
+!i113 1
+R12
+n@test@stop@watch@fsm
