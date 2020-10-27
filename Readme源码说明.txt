@@ -2,3 +2,5 @@
 
 There ara Modelsim projects(created by ModelSim PE Student Edition 10.4a) in the source code. References to the source files in those project file (".mpf" file, a kind of text file) are absolute paths.
 If you need to open a mpf project to reproduce the simulation process, you have to open the mpf file with a text editor, find and replace those file paths to the paths of the files in your computer.
+
+当前目录 D:\GitSpace\FPGA-Application-Development-and-Simulation
